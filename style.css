@@ -1,5 +1,7 @@
 html {
   font-family: sans-serif;
+  display: inline-block;
+  margin-left: 2em;
 }
 
 body {
@@ -31,6 +33,20 @@ article {
 }
 
 section {
-  display: flex; 
+  display: flex;
   justify-content: space-evenly;
+  gap: 20px;
+  margin-right: 50px;
+}
+
+form {
+  color: red;
+}
+
+input {
+  color: green;
+}
+
+.answer {
+  color: rgb(38, 0, 255);
 }
