@@ -10,5 +10,9 @@ btnSubmit.addEventListener("click", function (e) {
   const dateStr = new Intl.DateTimeFormat('en-SE').format(new Date());
   returnAnswer.textContent = `Your answer: on ${dateStr}: ${textReturned.value.toUpperCase()}`;
 });
-const arr = [3,7,12,4,63,128]
-console.log(arr.map(a => a * 2))
+const arr = [3,7,12,4,63,128,23,6, 15]
+//console.log(arr.map(a => a * 2))
+console.log(arr)
+console.log(arr.sort((a,b)=> b-a))
+//const biggest = arr.reduce((a,b) => a>b ? a:b)
+console.log('biggest: ', arr.reduce((a,b) => a>b ? a:b))
